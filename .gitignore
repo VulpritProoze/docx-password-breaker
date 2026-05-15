@@ -3,3 +3,4 @@ output/
 input.json
 *.log
 .DS_Store
+*.docx
