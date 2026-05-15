@@ -1,0 +1,22 @@
+{
+  "name": "docunlock",
+  "version": "0.1.0",
+  "description": "CLI to unlock password-protected Office files owned by the user",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "unlock": "node src/agent.js",
+    "unlock:dry": "node src/agent.js --dry-run",
+    "lint": "eslint .",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "office-crypto": "^0.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.9.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
