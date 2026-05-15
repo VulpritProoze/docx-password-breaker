@@ -13,7 +13,7 @@ npm install
 ```json
 {
   "jobs": [
-    { "file": "./Security-Keys-II.docx", "passwords": ["Alyszacute"] }
+    { "file": "./Security-Keys-II.docx", "passwords": ["TestPassword", "PizzaOrderBonanza", "OtherPasswords"] }
   ]
 }
 ```
